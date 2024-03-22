@@ -23,7 +23,10 @@ function TaskManager() {
   };
 
   return (
+    <>
+    
     <form onSubmit={handleSubmit}>
+    <h1>Daily Task Management</h1>
       <input
         type="text"
         value={task}
@@ -32,8 +35,9 @@ function TaskManager() {
         required
       />
       <button type="submit">Add Task</button>
-     <Tasks savedTasks={savedTasks} handleRemove={handleRemove}/>
     </form>
+     <Tasks savedTasks={savedTasks} handleRemove={handleRemove}/>
+    </>
   );
 }
 

@@ -1,0 +1,98 @@
+html {
+  background-color: rgb(31, 29, 29);
+  height: 100vh;
+}
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(172, 165, 169);
+}
+
+li {
+  list-style-type: none;
+  font-size: 40px;
+  width: 50%;
+}
+nav {
+  background-color: rgb(172, 165, 169);
+}
+a {
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  color: rgb(55, 50, 52);
+  height: 100%;
+}
+.active {
+  background-color: rgb(73, 143, 73);
+  color: white;
+}
+nav ul {
+  padding: 0;
+  display: flex;
+}
+input {
+  width: 50%;
+  height: 45px;
+  font-size: 25px;
+  align-self: center;
+  padding: auto;
+  border: none;
+  color: rgb(172, 165, 169);
+  background-color: rgb(55, 54, 54);
+}
+button {
+  width: 200px;
+  margin-left: 20px;
+  height: 45px;
+  padding: auto;
+  font-size: 25px;
+  color: rgb(172, 165, 169);
+  background-color: rgb(37, 35, 36);
+}
+
+form {
+  width: 70%;
+  margin: 150px auto 50px;
+  text-align: center;
+}
+.task-container {
+  margin: auto;
+  width: 50%;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 0;
+  max-height: 400px;
+  overflow-y: scroll;
+}
+.task-container li {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  font-size: 30px;
+  color: rgb(172, 165, 169);
+  justify-content: space-between;
+}
+.check-list {
+  margin-top: 15px;
+  height: 25px;
+  width: 25px;
+}
+.task-container input {
+  width: 100px;
+  border-radius: 10px;
+}
+.delete-btn {
+  margin: 10px;
+}
+:hover.delete-btn {
+  background-color: rgb(88, 86, 86);
+  color: rgb(232, 207, 207);
+}
+.container input:checked ~ .checkmark {
+  text-decoration: line-through;
+}
+::-webkit-scrollbar {
+  width: 0;
+}

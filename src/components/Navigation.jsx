@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom'
 
 function Navigation() {
   return (
-    <div>
+    <nav>
       <ul>
         <li>
             <NavLink to='/' > Task Manager</NavLink>
@@ -12,7 +12,7 @@ function Navigation() {
         </li>
         
       </ul>
-    </div>
+    </nav>
   )
 }
 
