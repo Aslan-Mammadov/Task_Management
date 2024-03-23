@@ -1,9 +1,12 @@
 import React from "react";
 
 function Contacts() {
+  const handleSubmit=() => {
+    alert('Thank You. New Contact is added.')
+  }
   return (
     <>
-      <form className="contacts-form">
+      <form className="contacts-form" onSubmit={handleSubmit}>
         <h1>Add New Contact</h1>
         <label htmlFor="name">First Name</label> 
         <input type="text" name="name" />
