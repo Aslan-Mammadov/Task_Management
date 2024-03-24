@@ -23,7 +23,7 @@ function TaskManager() {
   };
 
   return (
-    <>
+    <div className='split-task'>
       <form onSubmit={handleSubmit}>
         <h1>Daily Task Management</h1>
         <input
@@ -32,11 +32,12 @@ function TaskManager() {
           placeholder="Task"
           onChange={handleChange}
           required
+          autoFocus
         />
         <button type="submit">Add Task</button>
       </form>
       <Tasks savedTasks={savedTasks} handleRemove={handleRemove} />
-    </>
+    </div>
   );
 }
 

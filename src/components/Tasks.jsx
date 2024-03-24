@@ -1,7 +1,7 @@
 import React from "react";
 
 function Tasks({ savedTasks, handleRemove }) {
-    console.log(savedTasks)
+  
   return (
     <div>
       {savedTasks && (

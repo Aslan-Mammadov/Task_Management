@@ -11,6 +11,7 @@ function App() {
       <Routes>
         <Route path="/" element={<TaskManager />} />
         <Route path="/contacts" element={<Contacts />} />
+        <Route path="/split" element={<div className='split-container'><Contacts/> <TaskManager/> </div>}/>
       </Routes>
     </>
   );

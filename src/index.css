@@ -23,6 +23,7 @@ a {
   text-decoration: none;
   color: rgb(55, 50, 52);
   height: 100%;
+  border-right: 1px solid rgb(15, 13, 13);
 }
 .active {
   background-color: rgb(73, 143, 73);
@@ -88,16 +89,17 @@ form {
 }
 :hover.delete-btn {
   background-color: rgb(88, 86, 86);
-  color: rgb(232, 207, 207);
+  color: rgb(174, 106, 106);
 }
 .container input:checked ~ .checkmark {
   text-decoration: line-through;
+  color: green;
 }
 ::-webkit-scrollbar {
   width: 0;
 }
 .contacts-form{
-  margin-top:20px;
+  margin-top:5px;
   width: 50%;
 }
 .contacts-form input{
@@ -117,5 +119,16 @@ textarea{
   background-color: rgb(55, 54, 54);
   color: rgb(172, 165, 169);
   font-size: 25px;
+}
+.split-container{
+  display: flex;
+}
+.split-container .split-task{
+  width: 50%;
+  border-left: 1px solid white;
+}
+
+.split-container .task-container{
+  width: 80%;
 }
 

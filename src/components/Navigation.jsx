@@ -8,6 +8,9 @@ function Navigation() {
             <NavLink to='/' > Task Manager</NavLink>
         </li>
         <li>
+            <NavLink to='/split'> Split </NavLink>
+        </li>
+        <li>
             <NavLink to='/contacts'> Contacts </NavLink>
         </li>
         
