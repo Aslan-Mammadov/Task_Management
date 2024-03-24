@@ -25,4 +25,7 @@ On split view you can access to contacts and tasks at the same time.
 ## Future improvement:
 Local Storage Will be added to store data and access in the future. Mobile version will be coming soon..
 
+## Link
+https://manage-daily-tasks.netlify.app/contacts
+
 
